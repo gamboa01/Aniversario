@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Chewy&display=swap');
+:root{
+    --color0:#ffffff;
+    --color1: #9e013f;
+    --color2: #b61f55;
+    --color3: #cf3d6b;
+    --color4: #e75b81;
+    --color5: #ff7997 ;
+
+
+    --letra_contenido: "Atma", system-ui;
+    --letra_titulo:"Chewy", system-ui; 
+    
+  }
+body {
+    font-family: var(--letra_titulo);
+    background-color: var(--color1);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: var(--color3);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: var(--color1);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: var(--color2);
+}
